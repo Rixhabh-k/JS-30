@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #bcbcbc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .drum-kit {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main .drum-kit .key {
+  font-size: 2.5rem;
+  border-radius: 4px;
+  background: #e0e0e0;
+  box-shadow: inset 5px 5px 34px #5a5a5a, inset -5px -5px 34px #ffffff;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all linear 0.2s;
+  cursor: pointer;
+}
+main .drum-kit .key.playing {
+  border-radius: 4px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 5px 5px 34px #5a5a5a, -5px -5px 34px #ffffff;
+}/*# sourceMappingURL=style.css.map */
