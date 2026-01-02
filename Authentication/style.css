@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#main .status {
+  height: 50%;
+  width: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#main .status h1 {
+  color: green;
+  font-size: 3rem;
+}
+#main .status .text {
+  color: red;
+}
+
+.signUp {
+  height: 100%;
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+}
+.signUp .card-wrapper {
+  background-color: #fff;
+  height: 50%;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+}
+.signUp .card-wrapper form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.signUp .card-wrapper form div {
+  display: flex;
+  flex-direction: column;
+}
+.signUp .card-wrapper form div label {
+  font-size: 1rem;
+}
+.signUp .card-wrapper form div input {
+  width: 100%;
+  padding: 10px;
+}
+.signUp .card-wrapper form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: limegreen;
+  color: white;
+  cursor: pointer;
+}
+
+.login {
+  height: 100%;
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+}
+.login .card-wrapper {
+  background-color: #fff;
+  height: 50%;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+}
+.login .card-wrapper form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.login .card-wrapper form div {
+  display: flex;
+  flex-direction: column;
+}
+.login .card-wrapper form div label {
+  font-size: 1rem;
+}
+.login .card-wrapper form div input {
+  width: 100%;
+  padding: 10px;
+}
+.login .card-wrapper form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: limegreen;
+  color: white;
+  cursor: pointer;
+}
+
+.remove {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
