@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="card">
+            <div class="card-wrapper">
+                <h1>Email OTP Verification</h1>
+
+                <div class="send container">
+                    <input type="email" id="email" placeholder="Enter email">
+                    <button id="sendOtpBtn">Send OTP</button>
+                </div>
+
+                <div class="verify container">
+                    <input type="text" id="otpInput" placeholder="Enter OTP">
+                    <button id="verifyOtpBtn">Verify OTP</button>
+                </div>
+
+                <p id="message"></p>
+            </div>
+        </div>
+    </div>
+     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
